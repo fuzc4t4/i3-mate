@@ -26,8 +26,8 @@ echo 'Setting up network configuration:'
 sudo cp -v system/50-macrandomize.conf /etc/NetworkManager/conf.d/
 loopbackName=$(cat /etc/hostname)
 if [ ${#loopbackName} -gt 0 ]; then
-    sudo hostnamectl set-hostname --transient $loopbackName
     sudo cp -v /dev/null /etc/hostname
+    sudo hostnamectl set-hostname --transient $loopbackName
 fi
 sudo systemctl restart NetworkManager
 
