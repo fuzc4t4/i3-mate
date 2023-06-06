@@ -6,7 +6,7 @@ if type 'zypper' > /dev/null 2>&1; then
     sudo zypper in fish kitty ranger bat pasystray pavucontrol playerctl picom xscreensaver xscreensaver-data xscreensaver-data-extra rofi polybar i3 arandr lxrandr lxappearance zathura feh nitrogen neofetch neovim htop jq
 fi
 if type 'apt' > /dev/null 2>&1; then
-    sudo apt install fish kitty ranger bat diodon pasystray pavucontrol playerctl picom xscreensaver xscreensaver-data-extra xscreensaver-gl-extra rofi polybar i3 arandr lxrandr lxappearance zathura feh nitrogen neofetch neovim htop jq
+    sudo apt install fish kitty ranger bat diodon pasystray pavucontrol playerctl picom xscreensaver xscreensaver-data-extra xscreensaver-gl-extra rofi polybar i3-gaps arandr lxrandr lxappearance zathura feh nitrogen neofetch neovim htop jq
 fi
 
 echo 'Do you want to install nerd fonts?'

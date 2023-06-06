@@ -24,10 +24,11 @@ Review and run install.sh
 
 ## To-Do:
 - [x] Script to auto install dependencies based on diffenrent distros
+- [ ] Ensure that package for openSUSE Leap are correct
 - [ ] Support for more color schemes and a script to change them, currently only nord is available
 - [ ] Script to change fonts, currently iosevka is configured
 - [ ] Add parameters to install.sh to make verbosity optional and integrate future color scheme and font selector scripts to it.
-- [ ] Create another branch to make it compatible with lts distributions
+- [x] Create another branch to make it compatible with lts distributions
 
 ## Some credits:
 * [github.com/polybar/polybar-scripts](https://github.com/polybar/polybar-scripts)
